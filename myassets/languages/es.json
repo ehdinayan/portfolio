@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "name": "ALEJANDRO M L",
+    "first-link": "Sobre mi",
+    "second-link": "Aptitudes",
+    "third-link": "FrontEnd",
+    "fourth-link": "Contacto"
+  },
+
+  "drive": {
+    "option": "Ver en Drive"
+  },
+
+  "hero": {
+    "bio-tittle": "¡HOLA!",
+    "bio-text": "Me llamo Alejandro. He hecho esta web para darme a conocer y mostrar algunas de mis aptitudes en lo que al Desarrollo Web se refiere. <span>Gracias por tu visita!</span>"
+  },
+
+  "more-about": {
+    "more-about tittle": "SOBRE MI",
+    "more-about description": "Hace unos años empecé a formarme con la intención de reorientar mi perfil profesional al sector tecnológico. Ser usuario de GNULinux me motivó a iniciarme en programación con Unix, más tarde aprendí C# para desarrollo de videojuegos y recientemente he empezado a especializarme en lenguajes de marca, creación y diseño Web tanto en el ámbito Front-end como en el de Back-end.</br> </br> En entorno Back-end, estoy familiarizado con la creación, acceso y modificación de bases de datos con MySql y PHP, tanto en entorno remoto como en local con XAMPP. También he realizado aplicaciones sencillas para móvil con Android Studio y JavaScript.</br> </br>      Mi intención es actualizar esta página incorporando muestras de mis aptitudes actuales y también de las nuevas que vaya adquiriendo.        El apartado Front-end está formado por los 5 vídeos de más abajo, échales un ojo!"
+  },
+
+  "skills": {
+    "skills-tittle": "APTITUDES"
+  },
+
+  "projects": {
+    "projects-tittle": "FRONTEND",
+    "projects-description": "Estos vídeos describen prácticas y ejercicios que realicé mientras aprendía Desarrollo Web.",
+
+    "first-video-tittle": "HTML5 & CSS",
+    "first-video-description": "Aprendiendo a elaborar documentos con lenguaje de marca y a darles estilo.",
+    "first-video-link": "Ver vídeo",
+
+    "second-video-tittle": "MarvelApp - Figma",
+    "second-video-description": "Herramientas para pasar de la idea a la maquetación y dar forma al proyecto.",
+    "second-video-link": "Ver vídeo",
+
+    "third-video-tittle": "Programación JS",
+    "third-video-description": "Conceptos comunes de programación vistos en JavaScript.",
+    "third-video-link": "Ver vídeo",
+    "third-video-second-link": "Código",
+
+    "fourth-video-tittle": "Análisis Web",
+    "fourth-video-description": "Test de evaluación heurística Sirius.</br> Evaluación UX Jakob Nielsen.",
+    "fourth-video-link": "Ver vídeo",
+
+    "fifth-video-tittle": "Bootstrap",
+    "fifth-video-description": "Prácticas y ejercicios en el diseño responsive con Bootstrap.",
+    "fifth-video-link": "Ver vídeo"
+  },
+
+  "contact": {
+    "contact-tittle": "CONTACTO",
+    "contact-description": "Si te gustaría tener una web personal parecida a esta o con tu diseño personalizado, o incluso una tienda online con WordPress y WooCommerce, </br> puedes ponerte en contacto conmigo dejando un mensaje en el siguiente formulario, llegará directo a mi correo!",
+    "form-name": "Nombre",
+    "form-mail": "Email",
+    "form-message": "Mensaje"
+  },
+
+  "footer": {
+    "personalization": "&copy; 2023 Personalizado con &#x2661; por:"
+  }
+}

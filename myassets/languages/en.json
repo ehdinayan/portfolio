@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "name": "ALEJANDRO M L",
+    "first-link": "About me",
+    "second-link": "Skills",
+    "third-link": "FrontEnd",
+    "fourth-link": "Contact"
+  },
+
+  "drive": {
+    "option": "Watch in Drive"
+  },
+
+  "hero": {
+    "bio-tittle": "HI THERE!",
+    "bio-text": "I am Alejandro. I have made this website to show myself and some of my skills as Junior Web Developer. <span>Thanks for browsing!</span>"
+  },
+
+  "more-about": {
+    "more-about tittle": "ABOUT ME",
+    "more-about description": "A few years ago I began reorienting my professional profile to tech sector. Being a GNULinux user motivated me to start programming with Unix, later I learned C# for game development and I have recently begun to specialize in brand languages, creation and Web design in both Front-end and Back-end fields.</br>    </br> In Back-end environment, I am familiar with the data base creation, access and modification with MySql and PHP, both remotely and locally with XAMPP. I have also made simple mobile applications with Android Studio and JavaScript.</br> </br>  My intention is to update this page incorporating samples of my current skills and also of the new ones that I'll be acquiring. The Front-end section is made up of 5 videos below, check them out!"
+  },
+
+  "skills": {
+    "skills-tittle": "SKILLS"
+  },
+
+  "projects": {
+    "projects-tittle": "FRONTEND",
+    "projects-description": "These videos describe practices and exercises I did while learning Web Development.",
+
+    "first-video-tittle": "HTML5 & CSS",
+    "first-video-description": "Learning to prepare documents with brand language and to give them style.",
+    "first-video-link": "Check it out",
+
+    "second-video-tittle": "MarvelApp - Figma",
+    "second-video-description": "Tools to go from idea to layout and give shape to the project.",
+    "second-video-link": "Check it out",
+
+    "third-video-tittle": "JS Programming",
+    "third-video-description": "Common programming concepts seen in JavaScript.",
+    "third-video-link": "Check it out",
+    "third-video-second-link": "Code",
+
+    "fourth-video-tittle": "Web Page analysis",
+    "fourth-video-description": "Sirius heuristic evaluation test.</br>Jakob Nielsen UX evaluation.",
+    "fourth-video-link": "Check it out",
+
+    "fifth-video-tittle": "Bootstrap",
+    "fifth-video-description": "Bootstrap responsive design practices and exercises.",
+    "fifth-video-link": "Check it out"
+  },
+
+  "contact": {
+    "contact-tittle": "CONTACT",
+    "contact-description": "If you would like to have a personal website similar to this or with your custom design, or even an online store with WordPress and WooCommerce, </br> You can contact me by leaving a message in the form below, it will come directly to my email!",
+    "form-name": "Name",
+    "form-mail": "Email",
+    "form-message": "Message"
+  },
+
+  "footer": {
+    "personalization": "&copy; 2023 Personalized with &#x2661; by:"
+  }
+}

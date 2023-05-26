@@ -1,0 +1,175 @@
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#reproductor {
+  width: 900px;
+  margin: 100px auto;
+  padding: 10px 5px 5px 5px;
+  background: #999999;
+  border: 1px solid #666666;
+  border-radius: 10px;
+}
+
+nav.media {
+  display:flex;
+  justify-content: space-around;
+}
+
+#botones {
+  width: 160px;
+  height: 30px;
+}
+
+#reproducir, #silenciar {
+  width: 70px;
+  height:30px;
+  border: 1px solid #000000;
+  background: #DDDDDD;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#barra {
+  width: 550px;
+  height: 10px;
+  padding: 2px;
+  border: 1px solid #CCCCCC;
+  background: #EEEEEE;
+  margin:auto;
+}
+
+#progreso {
+  width: 0px;
+  height: 10px;
+  background: rgba(0,0,150,.2);
+}
+
+#control {
+  margin-top:5px;
+  height:10px;
+}
+
+#volumen {
+  width: 120px;
+  height: 10px;
+}
+
+.recuperar {
+  clear: both;
+}
+
+/*-----------------------MEDIA QUERIES---------------------------------------------------*/
+@media screen and (max-width: 920px) {
+  video {
+    width: 480px;
+  }
+
+  #reproductor {
+    width: 480px;
+  }
+
+  #botones {
+    width: 80px;
+    height: 20px;
+  }
+
+  #reproducir, #silenciar {
+    width: 35px;
+    height:20px;
+    font-size: 10px;
+  }
+
+  #barra {
+    width: 300px;
+    height: 5px;
+    margin:auto;
+  }
+
+  #control {
+    margin-top: 0px;
+    height:10px;
+  }
+
+  #volumen {
+    width: 70px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  video {
+    width: 420px;
+  }
+
+  #reproductor {
+    width: 420px;
+  }
+
+  #botones {
+    width: 70px;
+    height: 20px;
+  }
+
+  #reproducir, #silenciar {
+    width: 30px;
+    height:20px;
+    font-size: 6px;
+  }
+
+  #barra {
+    width: 200px;
+    height: 5px;
+  }
+
+  #progreso {
+    height:5px;
+  }
+
+  #volumen {
+    width: 80px;
+    height: 5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  video {
+    width: 320px;
+  }
+
+  #reproductor {
+    width: 320px;
+  }
+
+  #botones {
+    width: 50px;
+    height: 20px;
+  }
+
+  #reproducir, #silenciar {
+    width: 20px;
+    height:20px;
+    font-size: 6px;
+  }
+
+  #barra {
+    width: 150px;
+    height: 5px;
+  }
+
+  #progreso {
+    height:5px;
+  }
+
+  #volumen {
+    width: 50px;
+    height: 5px;
+  }
+
+}

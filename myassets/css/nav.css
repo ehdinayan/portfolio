@@ -1,0 +1,178 @@
+/*@import url('https://fonts.googleapis.com/css2?family=League+Spartan:ital,wght@0,200;0,400;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+web:ital,wght@0,200;0,400;0,900;1,700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Pangolin:ital,wght@0,200;0,400;0,900;1,700&display=swap');
+
+
+
+
+/* Variables */
+:root {
+  --font-familyC: "Pangolin", sans-serif;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --normal-size: 20px;
+  --primary-color:#780000;
+  --bg-color: #fcfcfc;
+  --bottom-margin-3: 20px;
+  --primary-shadow: #8b8eaf;
+  --transition: 0.3s;
+}
+
+/* CSS Resets */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+body {
+  font-family: var(--font-familyC);
+}
+
+h2 {
+  text-align: center;
+}
+
+/*---------------------------------NAV Section------------------------------*/
+
+nav.head {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: var(--bottom-margin-3)
+}
+
+nav.head h1 {
+  color: var(--primary-color);
+  font-size:32px;
+  text-shadow: 2px 2px 3px var(--primary-shadow);
+}
+
+nav.head span {
+  color:black;
+  font-size: 22px;
+}
+
+nav.head a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+nav.head ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav.head ul li {
+  font-weight: var(--bold-font);
+  font-size: 22px;
+}
+
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+/*--------------LANGUAJES---------------------------*/
+
+.flags {
+  width: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flags_item {
+  margin: 5px;
+  width: 20px;
+}
+
+.flags_item img {
+  cursor: pointer;
+}
+
+/*------------------------FOOTER section-------------------------------------------------*/
+
+footer {
+  background-color: var(--bg-color);
+  padding: 1.25rem;
+  text-align: center;
+  margin: 2rem 0 0;
+  font-size: var(--normal-size);
+  font-weight: 400;
+}
+
+footer img {
+  margin-left:5px;
+  margin-top:5px;
+}
+
+/*----------------SOCIAL MEDIA ICONS-----------------------------------------------------*/
+
+/*SOCIAL MEDIA ICONS*/
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+/*-----------------------MEDIA QUERIES---------------------------------------------------*/
+
+@media screen and (max-width: 720px) {
+  nav.head {
+    padding: 1.5rem 1rem;
+  }
+
+  nav.head ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+   nav.head ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+     display: block;
+   }
+
+   nav.head ul.show {
+     transform: translateX(0);
+   }

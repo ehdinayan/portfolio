@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicons -->
+
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="myassets/images/PerfilCoolFotocopia.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="myassets/images/PerfilCoolFotocopia.png">
+
+  <link rel="stylesheet" href="myassets/css/player.css">
+  <link rel="stylesheet" href="myassets/css/nav.css">
+
+
+  <title>Alejandro M L | JavaScript</title>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="head">
+   <h1><a href="myindex.html">ALEJANDRO M L</a> - <span>JS</span></h1>
+
+   <!--     Language SECTION    -->
+
+   <div id="flags" class="flags">
+     <div class="flags_item" data-language="es">
+       <img src="myassets/icons/es.svg" alt="">
+     </div>
+     <div class="flags_item" data-language="cat">
+       <img src="myassets/icons/es-ct.svg" alt="">
+     </div>
+     <div class="flags_item" data-language="en">
+       <img src="myassets/icons/gb.svg" alt="">
+     </div>
+   </div>
+
+   <ul class="navigation">
+     <li><a data-section="nav" data-value="first-link" href="index.html#about" class="nav-link show">About me</a></li>
+     <li><a data-section="nav" data-value="second-link" href="index.html#skills" class="nav-link show">Skills</a></li>
+     <li><a data-section="nav" data-value="third-link" href="index.html#projects" class="nav-link show">FrontEnd</a></li>
+     <li><a data-section="nav" data-value="fourth-link" href="index.html#contact" class="nav-link show">Contact</a></li>
+   </ul>
+   <button class="burger-menu" id="burger-menu">
+     <ion-icon class="bars" name="menu-outline"></ion-icon>
+   </button>
+ </nav>
+
+  <section id="reproductor">
+    <!--<video id="medio" width="720" height="400" poster="posterEval.png">-->
+    <video id="medio" width="900" poster="myassets/images/JS.png">
+
+      <source src="myassets/videos/js/webPortfolio-JS.mp4" type="video/mp4">
+      <source src="myassets/videos/js/webPortfolio-JS.webm" type="video/webm">
+      It seems browser does not support video tag/formats.
+
+    </video>
+    <nav class="media">
+      <div id="botones">
+        <input type="button" id="reproducir" value=">">
+        <input type="button" id="silenciar" value="MUTE">
+      </div>
+      <div id="barra">
+        <div id="progreso"></div>
+      </div>
+      <div id="control">
+        <input type="range" id="volumen" min="0" max="1" step="0.1" value="0.6">
+      </div>
+      <div class="recuperar"></div>
+    </nav>
+  </section>
+
+  <h2><a data-section="drive" data-value="option" href="https://drive.google.com/file/d/13GN5CCbJkKvvoijX_2T48v8lz8o6nT9k/view?usp=share_link" target="-blank">Watch on Drive</a>
+
+
+  <!-- Social accounts - Fixed to the right -->
+
+  <div class="socials">
+    <!--<a href="#" target="_blank"
+      ><img
+        src="myassets/icons/icons8-twitter-circled.gif"
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"></a>
+    <a href="#" target="_blank"
+      ><img
+        src="myassets/icons/icons8-instagram.gif"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"></a>-->
+        <a href="https://www.linkedin.com/in/juniorprogrammerwebdeveloperalejandromarinlegaz" target="_blank"
+      ><img
+        src="myassets/icons/icons8-linkedin-circled.gif"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"></a>
+    <a href="https://github.com/ehdinayan" target="_blank"
+      ><img src="myassets/icons/icons8-github.gif" alt="Github" class="socicon"></a>
+  </div>
+
+  <footer>
+      <p data-section="footer" data-value="personalization" class="copy">&copy; 2023 Personalized with &#x2661; by:</p>
+        <img
+          src="myassets/images/PerfilCoolFotocopia.png"
+          alt="Alejandro Dev"
+          title="Alejandro M L Dev"
+          loading="lazy"
+          width="30">
+  </footer>
+
+  <script src="myassets/js/player.js"></script>
+  <script src="myassets/js/nav.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
