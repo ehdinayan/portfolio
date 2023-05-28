@@ -490,9 +490,9 @@ footer {
   /*changes reflects on screen with a width of 720px and below*/
 }
 
-/*----------------------------------------------420p----------------------------------------------------------------*/
+/*----------------------------------------------480p----------------------------------------------------------------*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .hero img {
     height: 200px;
     width: 200px;
@@ -511,5 +511,11 @@ footer {
 
   .contact-form-container {
     max-width: 17.75rem;
+  }
+
+  /*--------------LANGUAJES---------------------------*/
+
+  .flags {
+    flex-direction: column;
   }
 }

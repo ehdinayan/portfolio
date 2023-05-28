@@ -176,3 +176,11 @@ footer img {
    nav.head ul.show {
      transform: translateX(0);
    }
+
+   @media screen and (max-width: 480px) {
+  /*--------------LANGUAJES---------------------------*/
+
+  .flags {
+    flex-direction: column;
+  }
+}
