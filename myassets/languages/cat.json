@@ -18,7 +18,10 @@
 
   "more-about": {
     "more-about tittle": "QUI SÓC",
-    "more-about description": "Fa uns anys vaig començar a formar-me amb la intenció de reorientar el meu perfil professional al sector tecnològic. Ser usuari de GNULinux em va motivar a iniciar-me en programació amb Unix, més tard vaig aprendre C# per a desenvolupament de videojocs i recentment he començat a especialitzar-me en llenguatges de marca, creació i disseny web tant a l'àmbit Front-end com al de Back-end .</br> </br> En entorn Back-end, estic familiaritzat amb la creació, accés i modificació de bases de dades amb MySql i PHP, tant en entorn remot com en local amb XAMPP. També he realitzat aplicacions senzilles per a mòbil amb Android Studio i JavaScript.</br> </br> La meva intenció és actualitzar aquesta pàgina incorporant mostres de les meves aptituds actuals i també de les noves que vagi adquirint. L'apartat Front-end està format pels 5 vídeos de més avall, fes-los un cop d'ull!"
+    "more-about description": "Fa uns anys vaig començar a formar-me amb la intenció de reorientar el meu perfil professional al sector tecnològic. Ser usuari de GNULinux em va motivar a iniciar-me en programació amb Unix, més tard vaig aprendre C# per a desenvolupament de videojocs i recentment he començat a especialitzar-me en llenguatges de marca, creació i disseny web tant a l'àmbit Front-end com al de Back-end .</br> </br> En entorn Back-end, estic familiaritzat amb la creació, accés i modificació de bases de dades amb MySql i PHP, tant en entorn remot com en local amb XAMPP. També he realitzat aplicacions senzilles per a mòbil amb Android Studio i JavaScript.</br> </br> Tinc titulació de técnic superior de so i puc desenvolupar treballs a l`àmbit audiovisual, com postproducció d 'àudio', edició de vídeo així com tasques de producció musical.
+    Vaig participar a la GGJ d'aquest any al Gener, a una de les seus de Barcelona. Vem guanyar el premi al videojoc més original de l'esdeveniment! </br>
+    </br> La meva intenció és actualitzar aquesta pàgina incorporant mostres de les meves aptituds actuals i també de les noves que vagi adquirint. L'apartat Front-end està format pels 5 vídeos de més avall, fes-los un cop d'ull!</br>",
+    "ggj-link": "</br> Fes un cop d'ull al videojoc Bunny Love de la GGJ 2023! </br>"
   },
 
   "skills": {
