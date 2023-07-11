@@ -18,10 +18,9 @@
 
   "more-about": {
     "more-about tittle": "ABOUT ME",
-    "more-about description": "A few years ago I began reorienting my professional profile to tech sector. Being a GNULinux user motivated me to start programming with Unix, later I learned C# for game development and I have recently begun to specialize in brand languages, creation and Web design in both Front-end and Back-end fields.</br>
-    In Back-end environment, I am familiar with the data base creation, access and modification with MySql and PHP, both remotely and locally with XAMPP. I have also made simple mobile applications with Android Studio and JavaScript.</br>
-    I have a Higher Sound Technician degree, so I am also able to develop various jobs in the audiovisual field, such as audio editing and postproduction, video editing or music production tasks. I joined GGJ as Sound Artist in Jannuary, in one of Barcelona's sites. We got most original game in site award!</br>
-    My intention is to update this page incorporating samples of my current skills and also of the new ones that I'll be acquiring. The Front-end section is made up of 5 videos below."
+    "more-about description": "A few years ago I began reorienting my professional profile to tech sector. Being a GNULinux user motivated me to start programming with Unix, later I learned C# for game development and I have recently begun to specialize in brand languages, creation and Web design in both Front-end and Back-end fields. <br> In Back-end environment, I am familiar with the data base creation, access and modification with MySql and PHP, both remotely and locally with XAMPP. I have also made simple mobile applications with Android Studio and JavaScript. <br> <br> I have a Higher Sound Technician degree, so I am also able to develop various jobs in the audiovisual field, such as audio editing and postproduction, video editing or music production tasks. I joined GGJ as Sound Artist in Jannuary, in one of Barcelona's sites. We got most original game in site award!<br> <br> My intention is to update this page incorporating samples of my current skills and also of the new ones that I'll be acquiring. The Front-end section is made up of 5 videos below.<br>",
+    "more-about link": "Check out Bunny Love videogame from GGJ 2023!"
+
   },
 
   "skills": {
